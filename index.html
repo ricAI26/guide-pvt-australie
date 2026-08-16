@@ -28,7 +28,8 @@
 (function(){
   var d=atob("aHR0cHM6Ly93YS5tZS82MTQyNDM1MjgwNz90ZXh0PUhpISUyMEklMjBqdXN0JTIwcmVxdWVzdGVkJTIwdGhlJTIwUFZUJTIwQXVzdHJhbGlhJTIwZ3VpZGUlMjAlRjAlOUYlODclQTYlRjAlOUYlODclQkElMjBJJTI3bSUyMGFsc28lMjBpbnRlcmVzdGVkJTIwaW4lMjBhY2NvbW1vZGF0aW9uJTJDJTIwY2FyJTIwcmVudGFsJTIwYW5kJTIweW91ciUyMHN1cHBvcnQlMjB0byUyMHNldHRsZSUyMGluJTIwQXVzdHJhbGlhLg==");
   document.getElementById("go").setAttribute("href",d);
-  setTimeout(function(){window.location.replace(d);},300);
+  try { new Image().src = "https://n8n-production-a7dbb.up.railway.app/webhook/wa-click?c=guide-fr&t=" + Date.now(); } catch(e) {}
+  setTimeout(function(){window.location.replace(d);},450);
 })();
 </script>
 </body>
